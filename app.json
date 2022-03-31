@@ -1,0 +1,23 @@
+{
+	"name": "CORS Anywhere deploy button",
+	"description": "fastest deploy your cors server.",
+	"repository": "https://github.com/arika0093/cors-deploy-button",
+	"keywords": ["cors", "proxy", "static", "deploy", "button"],
+	"env": {
+		"CORSANYWHERE_WHITELIST": {
+			"description": "CORS-Anywhere whitelist"
+		},
+		"CORSANYWHERE_BLACKLIST": {
+			"description": "CORS-Anywhere blacklist",
+			"value": ""
+		},
+		"CORSANYWHERE_RATELIMIT": {
+			"description": "CORS-Anywhere ratelimit (request / min)",
+			"value": "1000 1"
+		},
+		"CORSANYWHERE_PORT": {
+			"description": "CORS-Anywhere port",
+			"value": "443"
+		}
+	}
+  }

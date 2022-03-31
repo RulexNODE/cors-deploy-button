@@ -3,7 +3,6 @@ WORKDIR /cors
 
 ENV CORSANYWHERE_BLACKLIST=''
 ENV CORSANYWHERE_RATELIMIT='1000 1'
-ENV PORT='443'
 
 RUN apt update \
 	&& apt install -y git \

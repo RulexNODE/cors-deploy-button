@@ -6,7 +6,7 @@
 	"keywords": ["cors", "proxy", "static", "deploy", "button"],
 	"env": {
 		"CORSANYWHERE_WHITELIST": { 
-			"description": "CORS-Anywhere whitelist example: hoge.com,fuga.com"
+			"description": "CORS-Anywhere whitelist example: https://hoge.com,https://fuga.com"
 		},
 		"CORSANYWHERE_BLACKLIST": {
 			"description": "CORS-Anywhere blacklist default: none",
@@ -14,10 +14,6 @@
 		},
 		"CORSANYWHERE_RATELIMIT": {
 			"description": "CORS-Anywhere ratelimit (request / min) default: 1000/1min",
-			"required": false
-		},
-		"CORSANYWHERE_PORT": {
-			"description": "CORS-Anywhere port. default: 443",
 			"required": false
 		}
 	}

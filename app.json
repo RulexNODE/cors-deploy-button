@@ -5,19 +5,19 @@
 	"keywords": ["cors", "proxy", "static", "deploy", "button"],
 	"env": {
 		"CORSANYWHERE_WHITELIST": {
-			"description": "CORS-Anywhere whitelist"
+			"description": "CORS-Anywhere whitelist example: hoge.com,fuga.com"
 		},
 		"CORSANYWHERE_BLACKLIST": {
-			"description": "CORS-Anywhere blacklist",
-			"value": ""
+			"description": "CORS-Anywhere blacklist default: none",
+			"required": false
 		},
 		"CORSANYWHERE_RATELIMIT": {
-			"description": "CORS-Anywhere ratelimit (request / min)",
-			"value": "1000 1"
+			"description": "CORS-Anywhere ratelimit (request / min) default: 1000/1min",
+			"required": false
 		},
 		"CORSANYWHERE_PORT": {
-			"description": "CORS-Anywhere port",
-			"value": "443"
+			"description": "CORS-Anywhere port. default: 443",
+			"required": false
 		}
 	}
   }

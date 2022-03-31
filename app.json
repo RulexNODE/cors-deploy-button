@@ -3,7 +3,9 @@
 	"description": "fastest deploy your cors server.",
 	"repository": "https://github.com/arika0093/cors-deploy-button",
 	"keywords": ["cors", "proxy", "static", "deploy", "button"],
-	"buildpacks": ["heroku/nodejs"],
+	"buildpacks": [
+		{"url":"heroku/nodejs"}
+	],
 	"env": {
 		"CORSANYWHERE_WHITELIST": { 
 			"description": "CORS-Anywhere whitelist example: hoge.com,fuga.com"

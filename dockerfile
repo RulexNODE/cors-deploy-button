@@ -6,7 +6,7 @@ ENV CORSANYWHERE_RATELIMIT='1000 1'
 
 RUN apt update \
 	&& apt install -y git \
-	&& git clone https://github.com/Rob--W/cors-anywhere . \
+	&& git clone https://github.com/RulexNODE/cors-anywhere . \
 	&& rm -rf /var/lib/apt/lists/*
 
 RUN npm install --only=production

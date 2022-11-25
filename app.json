@@ -5,9 +5,6 @@
 	"repository": "https://github.com/arika0093/cors-deploy-button",
 	"keywords": ["cors", "proxy", "static", "deploy", "button"],
 	"env": {
-		"CORSANYWHERE_WHITELIST": { 
-			"description": "CORS-Anywhere whitelist example: https://hoge.com,https://fuga.com"
-		},
 		"CORSANYWHERE_BLACKLIST": {
 			"description": "CORS-Anywhere blacklist default: none",
 			"required": false
